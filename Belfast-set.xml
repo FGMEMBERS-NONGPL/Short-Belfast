@@ -1,0 +1,458 @@
+<PropertyList>
+ <sim>
+  <description>Short Belfast C.1</description>
+  <author>Alphasim(3d) StuartC(FDM), Gary Brown ( Liveries )</author>
+  <status>1.0</status>
+  <aircraft-version>1.0</aircraft-version>
+
+  <flight-model>yasim</flight-model>
+  <aero>Short-Belfast-yasim</aero>
+
+  <fuel-fraction>1.0</fuel-fraction>
+
+  <model>
+   <path>Aircraft/Short-Belfast/Models/Belfast-C1.xml</path>
+  </model>
+  
+  <submodels>
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/Short-Belfast/Submodels/submodels.xml</path>
+	   <path>Aircraft/Short-Belfast/Models/payload/loads.xml</path>
+    </submodels>
+  
+  <startup>
+      <splash-texture>Aircraft/Short-Belfast/splash.png</splash-texture>
+    </startup>
+  
+  
+  <instrumentation>
+    <path>Systems/instrumentation.xml</path>
+  </instrumentation>
+  
+ 
+  
+  <systems>
+  <path>Systems/systems.xml</path>
+          <autopilot>
+            <path>Aircraft/Short-Belfast/Systems/autopilot3.xml</path>
+          </autopilot>
+          <electrical>
+            <path>Aircraft/Generic/generic-electrical.xml</path>
+          </electrical>
+          <refuel>
+            <type>probe</type>
+            <serviceable type="bool">true</serviceable>
+          </refuel>
+  </systems>
+  
+   <mp-systems>
+      <radar-enabled type="bool">true</radar-enabled>
+      <ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
+      <combat-enabled type="bool">true</combat-enabled>
+  </mp-systems>	
+  
+  
+   <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                           <!--  0 immat -->
+        <int type="int" n="1">  0 </int>                                           <!--  1 immat -->
+         <int n="2" alias="/controls/lighting/landing-lights[0]" /> />  <!-- Landing Light Port -->
+        <int type="int" n="3">  0 </int>                                           <!--  3 immat -->
+      
+        <int n="5" alias="/controls/lighting/beacon" /><!-- Beacon -->
+        <int n="6" alias="/controls/lighting/strobe" />  <!-- Strobe -->
+        <int type="int" n="7" alias="smoke/particlepersec"> 50 </int>              <!--  7 particlepersec -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>           <!-- 10 reserved for bombable mode -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+       
+      
+        <string n="9" type="string" />                                             <!-- string[9] reserved for bombable mode -->
+      </generic>
+    </multiplay>
+  
+
+  <view n="0">
+    <name>Pilot</name>
+    <type>lookfrom</type>
+    <internal type="bool">true</internal>
+    <config>
+      
+      <x-offset-m archive="y">  -0.8 </x-offset-m> <!--Right -->
+        <y-offset-m archive="y">   1.8 </y-offset-m> <!--Up    -->
+        <z-offset-m archive="y"> -15.2 </z-offset-m> <!--Back  -->
+	  <default-field-of-view-deg>82</default-field-of-view-deg>
+    </config>
+  </view>
+  
+  
+  <view n="100">
+	<name>Cockpit cam</name>
+	 <internal archive="y">false</internal>
+	
+	<config>
+		<from-model type="bool">true</from-model>
+		<from-model-idx type="int">0</from-model-idx>
+		 <x-offset-m archive="y">0</x-offset-m> <!--Right -->
+        <y-offset-m archive="y">   1.8 </y-offset-m> <!--Up    -->
+        <z-offset-m archive="y"> -13.8 </z-offset-m> <!--Back  -->
+	  <default-field-of-view-deg>82</default-field-of-view-deg>
+	</config>
+
+</view>
+
+<view n="101">
+	<name>Loadmaster</name>
+	 <internal archive="y">false</internal>
+	
+	<config>
+		<from-model type="bool">true</from-model>
+		<from-model-idx type="int">0</from-model-idx>
+		 <x-offset-m type="double">1.1</x-offset-m>
+      <y-offset-m type="double">0</y-offset-m>
+      <z-offset-m type="double">5.7</z-offset-m>
+	  <default-field-of-view-deg>60</default-field-of-view-deg>
+	  <heading-offset-deg>340</heading-offset-deg>
+	</config>
+
+</view>
+
+
+ <view n="102">
+	<name>Flt engineer </name>
+	 <internal archive="y">false</internal>
+	
+	<config>
+		<from-model type="bool">true</from-model>
+		<from-model-idx type="int">0</from-model-idx>
+		 <x-offset-m archive="y">0.65</x-offset-m> <!--Right -->
+        <y-offset-m archive="y">   1.8 </y-offset-m> <!--Up    -->
+        <z-offset-m archive="y"> -13.9 </z-offset-m> <!--Back  -->
+	  <default-field-of-view-deg>82</default-field-of-view-deg>
+	  <heading-offset-deg>270</heading-offset-deg>
+	</config>
+
+</view>
+
+
+<view n="103">
+	<name>Navigator </name>
+	 <internal archive="y">false</internal>
+	
+	<config>
+		<from-model type="bool">true</from-model>
+		<from-model-idx type="int">0</from-model-idx>
+		 <x-offset-m archive="y">-1.2</x-offset-m> <!--Right -->
+        <y-offset-m archive="y">   1.8 </y-offset-m> <!--Up    -->
+        <z-offset-m archive="y"> -13.95 </z-offset-m> <!--Back  -->
+	  <default-field-of-view-deg>82</default-field-of-view-deg>
+	  <heading-offset-deg>180</heading-offset-deg>
+	</config>
+
+</view>
+
+
+<view n="104">
+	<name>Co Pilot </name>
+	 <internal archive="y">false</internal>
+	
+	<config>
+		<from-model type="bool">true</from-model>
+		<from-model-idx type="int">0</from-model-idx>
+		 <x-offset-m archive="y">  0.6 </x-offset-m> <!--Right -->
+        <y-offset-m archive="y">   1.8 </y-offset-m> <!--Up    -->
+        <z-offset-m archive="y"> -15.2 </z-offset-m> <!--Back  -->
+	  <default-field-of-view-deg>82</default-field-of-view-deg>
+	   <heading-offset-deg>0</heading-offset-deg>
+	</config>
+
+</view>
+ 
+
+  <view n="1">
+   <config>
+    <z-offset-m archive="y">34</z-offset-m>
+   </config>
+  </view>
+
+  <chase-distance-m>-65</chase-distance-m>
+
+  <sound>
+   <path archive="y">Aircraft/Short-Belfast/Sounds/sound.xml</path>
+  </sound>
+
+ 
+
+  
+  <flaps>
+   <setting>0.0</setting>
+   <setting>0.25</setting> 
+   <setting>0.50</setting> 
+   <setting>0.75</setting> 
+   <setting>1.0</setting> 
+  </flaps>
+  
+  
+    <help>
+      <title>Belfast C1</title>
+      <key>
+        <name>8</name>
+        <desc>Launch Flares</desc>
+      </key>
+	  <key>
+        <name>Shift-D</name>
+        <desc>Open/Close cargo ramp and Jump doors</desc>
+      </key>
+	  <key>
+        <name>d</name>
+        <desc>Open/Close forward crew door</desc>
+      </key>
+	  <key>
+        <name>l</name>
+        <desc>Hold down for parachutist.</desc>
+      </key>
+	 
+    </help>
+	
+	
+<!-- Payload options 
+
+
+  <weight n="0">
+<name>Cargobay1</name>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+
+<opt>
+<name>1x Hummer</name>
+<lbs>5700</lbs>
+</opt>
+
+<opt>
+<name>2x Hummer</name>
+<lbs>11400</lbs>
+</opt>
+
+<opt>
+<name>1x LandRover WMIK</name>
+<lbs>9020</lbs>
+</opt>
+
+<opt>
+<name>2x LandRover WMIK</name>
+<lbs>18040</lbs>
+</opt>
+
+<opt>
+<name>1x Jackal</name>
+<lbs>14896</lbs>
+</opt>
+
+<opt>
+<name>2x Jackal</name>
+<lbs>29792</lbs>
+</opt>
+
+<opt>
+<name>MTVR</name>
+<lbs>27900</lbs>
+</opt>
+
+<opt>
+<name>BVS10-Viking</name>
+<lbs>19040</lbs>
+</opt>
+
+<opt>
+<name>CH-47</name>
+<lbs>23400</lbs>
+</opt>
+
+
+</weight>
+
+  -->
+  
+  <menubar include="Dialogs/menu.xml"/>
+
+ </sim>
+ 
+  <input>
+    <keyboard include="Nasal/keyboard.xml"/>
+  </input>
+ 
+ <systems>
+          <autopilot>
+            <path>Aircraft/Short-Belfast/Systems/autopilot3.xml</path>
+          </autopilot>
+          <electrical>
+            <path>Aircraft/Generic/generic-electrical.xml</path>
+          </electrical>
+          <refuel>
+            <type>probe</type>
+            <serviceable type="bool">true</serviceable>
+          </refuel>
+  </systems>
+
+ <yasim>
+  <nose>30000</nose>
+  <tail>-30000</tail>
+  <load01>25000</load01>
+ </yasim>
+
+ 
+ <!-- engines on, low pitch (parking) -->
+  <controls>
+    <engines>
+      <engine n="0">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="1">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="2">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="3">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+    </engines>
+	
+	<gear>
+      <brake-parking>1.0</brake-parking>
+      <gear-down>true</gear-down>
+    </gear>
+	 <armament>
+			<station n="0">
+				<release type="bool">false</release>
+			</station>
+	   </armament>	
+</controls>
+
+ <instrumentation>
+  <radar-altimeter>
+    <!-- AN/APN-232 CARA -->
+    <switch type="string">ON</switch>
+    <serviceable type="bool">true</serviceable>
+    <antenna>
+      <x-offset-m type="double">8.3</x-offset-m>
+      <y-offset-m type="double">0</y-offset-m>
+      <z-offset-m type="double">-0.5</z-offset-m>
+    </antenna>
+
+    <!-- +-60deg up to 3000ft -->
+    <elev-limit type="double">60</elev-limit>
+    <az-limit-deg type="double">60</az-limit-deg>
+    
+    <!-- TODO +-45deg up to 5000ft,
+              +-10deg up to 50000ft -->
+    
+    <!-- 50000ft -->
+    <max-range-m>15240</max-range-m>
+  </radar-altimeter>
+</instrumentation>
+  
+  <consumables>
+    <fuel>
+      <tank n="0">
+        <level-gal_us archive="y">1280.88</level-gal_us>
+      </tank>
+	  <tank n="1">
+        <level-gal_us archive="y">1280.88</level-gal_us>
+      </tank>
+	  <tank n="2">
+        <level-gal_us archive="y">1175.73</level-gal_us>
+      </tank>
+	   <tank n="3">
+        <level-gal_us archive="y">1175.73</level-gal_us>
+      </tank>
+	   <tank n="4">
+        <level-gal_us archive="y">869.85</level-gal_us>
+      </tank>
+	   <tank n="5">
+        <level-gal_us archive="y">869.85</level-gal_us>
+      </tank>
+	   <tank n="6">
+        <level-gal_us archive="y">779.26</level-gal_us>
+      </tank>
+	   <tank n="7">
+        <level-gal_us archive="y">779.16</level-gal_us>
+      </tank>
+    </fuel>
+  </consumables>
+  
+  <nasal>
+	     <belfast>
+     <file>Aircraft/Short-Belfast/Nasal/liveries.nas</file>
+    </belfast>
+		<tyresmoke>
+    <file>Nasal/tyresmoke.nas</file>
+  </tyresmoke>
+  <systems>
+    <file>Nasal/screen.nas</file>
+    <file>Nasal/amu.nas</file>
+    <file>Nasal/apu.nas</file>
+    <file>Nasal/cdmu.nas</file>
+    <file>Nasal/fuel-system.nas</file>
+    <file>Nasal/hud.nas</file>
+    <file>Nasal/hdd.nas</file>
+  </systems>
+  
+		
+		 <doors>
+      <file>Aircraft/Short-Belfast/Nasal/doors.nas</file>
+    </doors>
+		<rwr>
+         <file>Aircraft/Short-Belfast/Nasal/rwr.nas</file>
+        </rwr> 
+        <radardist>
+         <file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
+        </radardist>
+        <enav>
+         <file>Aircraft/Short-Belfast/Nasal/enav.nas</file>
+        </enav>
+        <radar>
+         <file>Aircraft/Short-Belfast/Nasal/radar.nas</file> 
+        </radar>
+        <radar2>
+          <file>Aircraft/Short-Belfast/Nasal/radar2.nas</file>
+        </radar2>
+        <cdu>
+			<file>Aircraft/Instruments-3d/cdu/boeing.nas</file>
+		</cdu>
+		<aar>
+          <file>Aircraft/Generic/aar.nas</file>
+        </aar>
+		<lights>
+		   <file>Aircraft/Short-Belfast/Nasal/lights.nas</file>
+		</lights>
+
+    <terrain-map>
+          <file>Aircraft/Short-Belfast/Nasal/terrain-map.nas</file>
+    </terrain-map>
+   
+	<enav>
+      <file>Aircraft/Short-Belfast/Nasal/enav.nas</file>
+    </enav>
+<!--
+		<engines>
+   <file>Aircraft/Short-Belfast/Nasal/generic-yasim-engine.nas</file>
+  </engines>
+  
+  <emu>
+   <file>Aircraft/Short-Belfast/Nasal/emu.nas</file>
+  </emu>
+-->
+    </nasal>
+ 
+</PropertyList>

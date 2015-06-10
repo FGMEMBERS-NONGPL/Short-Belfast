@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">HeavyLift Cargo Airlines</name>
+        <fuselage1>Liveries/HCA/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/HCA/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/HCA/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/HCA/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/HCA/Belf_5_t.jpg</ramp>
+			<other>Liveries/HCA/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

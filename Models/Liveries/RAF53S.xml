@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 53 Sqdn - Atlas</name>
+        <fuselage1>Liveries/RAF53S/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/RAF53S/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/RAF53S/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/RAF53S/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/RAF53S/Belf_5_t.jpg</ramp>
+			<other>Liveries/RAF53S/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

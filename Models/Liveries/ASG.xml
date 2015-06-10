@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 53 Sqdn - Air Superiority Grey</name>
+        <fuselage1>Liveries/ASG/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/ASG/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/ASG/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/ASG/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/ASG/Belf_5_t.jpg</ramp>
+			<other>Liveries/ASG/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

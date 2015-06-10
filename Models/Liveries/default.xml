@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Default</name>
+        <fuselage1>Liveries/Default/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/Default/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/Default/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/Default/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/Default/Belf_5_t.jpg</ramp>
+			<other>Liveries/Default/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

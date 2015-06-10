@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 53 Sqdn - 1960s Desert Camo</name>
+        <fuselage1>Liveries/Desert/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/Desert/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/Desert/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/Desert/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/Desert/Belf_5_t.jpg</ramp>
+			<other>Liveries/Desert/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

@@ -1,0 +1,1 @@
+<?xml version="1.0"?><PropertyList><path>propellors.ac</path> <animation>  <type>spin</type>  <object-name>left-prop</object-name>  <property>engines/engine[1]/rpm</property>  <factor>400</factor>  <center>   <x-m>0</x-m>   <y-m>0</y-m>   <z-m>0</z-m>  </center>  <axis>   <x>-1</x>   <y>0</y>   <z>0</z>  </axis> </animation> </PropertyList>

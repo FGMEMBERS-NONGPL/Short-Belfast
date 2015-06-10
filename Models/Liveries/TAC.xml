@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Transmeridian Air Cargo (HeavyLift)</name>
+        <fuselage1>Liveries/TACHeavyLift/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/TACHeavyLift/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/TACHeavyLift/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/TACHeavyLift/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/TACHeavyLift/Belf_5_t.jpg</ramp>
+			<other>Liveries/TACHeavyLift/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

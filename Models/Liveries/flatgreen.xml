@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 53 Sqdn - 1960s Cargo Green</name>
+        <fuselage1>Liveries/FlatGreen/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/FlatGreen/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/FlatGreen/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/FlatGreen/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/FlatGreen/Belf_5_t.jpg</ramp>
+			<other>Liveries/FlatGreen/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

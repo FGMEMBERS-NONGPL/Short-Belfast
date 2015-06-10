@@ -1,0 +1,1 @@
+<?xml version="1.0"?><PropertyList><path>allprops.ac</path> <animation>  <type>spin</type>  <object-name>Prop1</object-name>  <property>engines/engine/rpm</property>  <factor>400</factor>  <center>   <x-m>0</x-m>   <y-m>0</y-m>   <z-m>0</z-m>  </center>  <axis>   <x>-1</x>   <y>0</y>   <z>0</z>  </axis> </animation> </PropertyList>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">FGUK</name>
+        <fuselage1>Liveries/FGUK/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/FGUK/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/FGUK/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/FGUK/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/FGUK/Belf_5_t.jpg</ramp>
+			<other>Liveries/FGUK/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>

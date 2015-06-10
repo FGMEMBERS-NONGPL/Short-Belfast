@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+
+<!-- Pilot -->
+
+<model>
+    <path>Aircraft/Instruments-3d/ai/ai.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.802 </y-m>
+      <z-m> 1.283</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/Instruments-3d/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.802 </y-m>
+      <z-m> 1.02</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+      <path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.972 </y-m>
+      <z-m> 1.11</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+     <path>Aircraft/Short-Belfast/Models/Interior/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.972 </y-m>
+      <z-m> 0.95</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+    <model>
+    <path>Aircraft/Instruments-3d/gps-ind/gps.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.633 </y-m>
+      <z-m> 0.933</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.5</z-offset>
+   </animation>
+  </overlay>
+  </model>
+
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.963 </y-m>
+      <z-m> 1.3</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.95</y-offset>
+    <z-offset>2.22</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.633 </y-m>
+      <z-m> 1.3</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.92</y-offset>
+    <z-offset>2.29</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <!-- Centre main dash -->
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/oil/oil-1.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.323 </y-m>
+      <z-m> 1.19</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.3</y-offset>
+    <z-offset>2.7</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/oil/oil-2.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.221 </y-m>
+      <z-m> 1.19</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.3</y-offset>
+    <z-offset>2.7</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/oil/oil-3.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.118 </y-m>
+      <z-m> 1.19</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.3</y-offset>
+    <z-offset>2.7</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/oil/oil-4.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.016 </y-m>
+      <z-m> 1.19</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.3</y-offset>
+    <z-offset>2.7</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/rpm/rpm-1.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.323 </y-m>
+      <z-m> 1.08</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.4</y-offset>
+    <z-offset>2.75</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/rpm/rpm-2.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.222 </y-m>
+      <z-m> 1.08</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.4</y-offset>
+    <z-offset>2.75</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/rpm/rpm-3.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.118 </y-m>
+      <z-m> 1.08</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.4</y-offset>
+    <z-offset>2.75</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/rpm/rpm-4.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.017 </y-m>
+      <z-m> 1.078</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.4</y-offset>
+    <z-offset>2.75</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/egt/egt.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.325 </y-m>
+      <z-m> 0.965</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.1</y-offset>
+    <z-offset>2.55</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/egt/egt2.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.251 </y-m>
+      <z-m> 0.965</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.1</y-offset>
+    <z-offset>2.55</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m>-16.025</x-m>
+      <y-m> -0.174 </y-m>
+      <z-m> 0.962</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.6</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/egt/egt3.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.095</y-m>
+      <z-m> 0.965</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.1</y-offset>
+    <z-offset>2.55</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/egt/egt4.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> -0.018</y-m>
+      <z-m> 0.965</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>2.1</y-offset>
+    <z-offset>2.55</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/Instruments-3d/flap-ind/flap-indicator.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.084</y-m>
+      <z-m> 1.004</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.5</y-offset>
+    <z-offset>1.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/ai2/ai.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.188</y-m>
+      <z-m> 1.004</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.6</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/gear/gear.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.258</y-m>
+      <z-m> 1.225</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <!-- Co Pilot -->
+  
+  
+  <model>
+    <path>Aircraft/Instruments-3d/ai/ai.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.582 </y-m>
+      <z-m> 1.283</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/Instruments-3d/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.582 </y-m>
+      <z-m> 1.02</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+      <path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.41 </y-m>
+      <z-m> 1.11</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+     <path>Aircraft/Short-Belfast/Models/Interior/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.41 </y-m>
+      <z-m> 0.95</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.75</y-offset>
+    <z-offset>2.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/Instruments-3d/gps-ind/gps.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.746 </y-m>
+      <z-m> 0.933</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.5</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.416 </y-m>
+      <z-m> 1.294</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.95</y-offset>
+    <z-offset>2.22</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/Short-Belfast/Models/Interior/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>-16.02</x-m>
+      <y-m> 0.749 </y-m>
+      <z-m> 1.296</z-m>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.92</y-offset>
+    <z-offset>2.29</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+</PropertyList>
+

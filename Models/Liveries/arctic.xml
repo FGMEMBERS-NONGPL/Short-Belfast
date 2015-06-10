@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?By Robert Maheu?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 53 Sqdn - 1960s Arctic. Camo</name>
+        <fuselage1>Liveries/Arctic/Belf_1_t.jpg</fuselage1>
+		 <fuselage2>Liveries/Arctic/Belf_2_t.jpg</fuselage2>
+		  <wing-top>Liveries/Arctic/Belf_3_t.jpg</wing-top>
+		   <wing-bottom>Liveries/Arctic/Belf_4_t.jpg</wing-bottom>
+		    <ramp>Liveries/Arctic/Belf_5_t.jpg</ramp>
+			<other>Liveries/Arctic/BELF_6_T.jpg</other>
+	  </livery>
+	  	  
+    </model>
+  </sim>
+</PropertyList>
