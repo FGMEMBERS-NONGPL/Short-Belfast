@@ -6,20 +6,20 @@
     <name type="string">C-130J Flight Recorder</name>
 
     <!-- Basic aircraft data -->
-    <signals include="/Aircraft/Generic/flightrecorder/components/environment.xml"/>
-    <signals include="/Aircraft/Generic/flightrecorder/components/position.xml"/>
-    <signals include="/Aircraft/Generic/flightrecorder/components/controls.xml"/>
-    <signals include="/Aircraft/Generic/flightrecorder/components/surfaces.xml"/>
-    <signals include="/Aircraft/Generic/flightrecorder/components/engine-turboprop.xml">
+    <signals include="Aircraft/Generic/flightrecorder/components/environment.xml"/>
+    <signals include="Aircraft/Generic/flightrecorder/components/position.xml"/>
+    <signals include="Aircraft/Generic/flightrecorder/components/controls.xml"/>
+    <signals include="Aircraft/Generic/flightrecorder/components/surfaces.xml"/>
+    <signals include="Aircraft/Generic/flightrecorder/components/engine-turboprop.xml">
       <count type="int">4</count>
     </signals>
-    <signals include="/Aircraft/Generic/flightrecorder/components/faults-engines.xml">
+    <signals include="Aircraft/Generic/flightrecorder/components/faults-engines.xml">
       <count type="int">4</count>
     </signals>
-    <signals include="/Aircraft/Generic/flightrecorder/components/tanks.xml">
+    <signals include="Aircraft/Generic/flightrecorder/components/tanks.xml">
       <count type="int">4</count>
     </signals>
-    <signals include="/Aircraft/Generic/flightrecorder/components/gear-retractable.xml">
+    <signals include="Aircraft/Generic/flightrecorder/components/gear-retractable.xml">
       <count type="int">5</count>
     </signals>
     
